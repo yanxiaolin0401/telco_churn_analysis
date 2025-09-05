@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.Python/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data
+data/processed/
+data/raw/*.zip  # 如果原始数据是压缩包，可以忽略压缩包本身
+
+# Models
+models/
+
+# Reports
+reports/
+
+# VS Code
+.vscode/
