@@ -1,4 +1,4 @@
-# src/models.py
+# src/models.py 封装机器学习模型的训练、评估和保存逻辑
 
 import pandas as pd
 import numpy as np

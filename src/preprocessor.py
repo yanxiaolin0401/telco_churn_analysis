@@ -1,4 +1,4 @@
-# src/preprocessor.py
+# src/preprocessor.py数据清洗、类型转换、缺失值处理和特征编码 
 import os
 import sys
 # 获取当前文件所在的目录
