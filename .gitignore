@@ -5,17 +5,20 @@ __pycache__/
 .venv/
 
 # Jupyter Notebook
-.ipynb_checkpoints/
+.ipynb_checkpoints/ # 忽略Jupyter的检查点文件夹
 
 # Data
-data/processed/
+#data/processed/ # 忽略预处理后的数据文件夹
 data/raw/*.zip  # 如果原始数据是压缩包，可以忽略压缩包本身
+# 如果原始CSV文件很大，也可以考虑不上传，但本例中它不大，通常会上传
+# data/raw/telco_customer_churn.csv
+
 
 # Models
-models/
+#models/ # 忽略保存的模型文件夹
 
 # Reports
-reports/
+#reports/
 
 # VS Code
 .vscode/
