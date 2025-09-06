@@ -14,6 +14,19 @@
 
 1. 克隆仓库。
 2. 创建并激活 Python 虚拟环境。
+
+   # 创建虚拟环境
+
+   `python -m venv .venv`
+
+   # 激活虚拟环境 (Windows PowerShell)
+
+   `.venv\Scripts\Activate.ps1`
+
+   # 激活虚拟环境 (Windows Command Prompt / Git Bash)
+
+   `.venv\Scripts\activate`
+
 3. 安装依赖：`pip install -r requirements.txt`
-4. 下载`telco_customer_churn.csv`数据集并放置到`data/raw/`目录下。
-5. 运行 Jupyter Notebooks 或`src`中的脚本进行分析。
+4. 下载`telco_customer_churn.csv`数据集并放置到`data/raw/`目录下。并运行 preprocessor.py 脚本清洗数据
+5. 运行 Jupyter Notebooks 1，2，3，4。
