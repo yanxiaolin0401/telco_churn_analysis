@@ -15,15 +15,15 @@
 1. 克隆仓库。
 2. 创建并激活 Python 虚拟环境。
 
-   # 创建虚拟环境
+   创建虚拟环境
 
    `python -m venv .venv`
 
-   # 激活虚拟环境 (Windows PowerShell)
+   激活虚拟环境 (Windows PowerShell)
 
    `.venv\Scripts\Activate.ps1`
 
-   # 激活虚拟环境 (Windows Command Prompt / Git Bash)
+   激活虚拟环境 (Windows Command Prompt / Git Bash)
 
    `.venv\Scripts\activate`
 
